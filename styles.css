@@ -1,7 +1,11 @@
+/*Der Sinn der styles.css ist, die Farben,
+ die Schriftgröße/-art und das Aussehe aller Elemente in der 
+ HTML- Datei zu gestalten. */
+
 /* Der HIntergrund ist türkis.*/
 
 body {
-    background-color: #94ddf3;
+    background-color: #000000;
     font-family: Arial, sans-serif;
   
    
@@ -9,20 +13,20 @@ body {
 }
 
 h1 {
-    color: #141313;
+    color: #ffffff;
     font-size: 36px;
     margin-bottom: 20px;
 }
 
 h2 {
-    color: #9aaa9a;
+    color: hsl(0, 0%, 100%)0%, 100%);
     font-size: 28px;
     margin-top: 80px;
     margin-bottom: 20px;
 }
 /*die Schriftfarbe in Absätzen ist blau.*/
 p {
-    color: #13137a;
+    color: #ffffff;
     margin-bottom: 20px;
 }
 
@@ -31,13 +35,20 @@ table {
     margin-top: 80px;
 }
 
-th, td {
-    border: 1px solid #000;
+th{  color: white;
+    background: black;
+
+} td {
+    border: 1px solid #ffffff;
     padding: 10px;
 }
 
 hr {
     border: none;
-    border-top: 2px dashed #000000;
+    border-top: 2px dashed hsl(0, 0%, 100%)0%, 100%);
     margin-top: 80px;
+}
+
+html{
+    color: #ffffff;
 }
